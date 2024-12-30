@@ -74,3 +74,18 @@ print(item1.name)
 print(item2.name)'''
 
 """
+
+
+"""
+        @property
+        #Property Decorator use only for the  Read only
+        def name(self):
+            return self.__name
+
+        @name.setter
+        def name(self,vale):
+            if len(value>10):
+                raise Exception("leng is greater than expected")
+            else:
+                self.___name= value
+"""
